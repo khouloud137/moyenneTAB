@@ -112,3 +112,16 @@ button:hover {
   transform: translateY(0);
   background-color: #d39e00; /* Couleur jaune encore plus foncé */
 }
+input {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #007bff;
+}
+
+input[style*="border-color: red"] {
+  background-color: #ffe6e6;
+}
